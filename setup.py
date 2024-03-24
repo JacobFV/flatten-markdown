@@ -1,12 +1,12 @@
 from setuptools import setup
 
 setup(
-    name='tree-2-md',
+    name='tree2md',
     version='1.0.0',
-    py_modules=['tree_2_md'],
+    py_modules=['tree2md'],
     entry_points={
         'console_scripts': [
-            'tree-2-md = tree_2_md:main',
+            'tree2md = tree2md:main',
         ],
     },
 )
